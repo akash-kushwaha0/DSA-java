@@ -1,0 +1,17 @@
+# Ignore all compiled class files
+*.class
+
+# Ignore directories that may contain compiled classes
+bin/
+out/
+target/
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+.vscode/
+
+# Ignore .gitignore inside ignored directories
+bin/.gitignore
+out/.gitignore
+target/.gitignore
